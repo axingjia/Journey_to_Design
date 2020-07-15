@@ -165,4 +165,76 @@ https://explorable.com/surveys-and-questionnaires
 * Personas include: social/demographic characteristics; needs, desires, goals; cultural backgrounds, motivations, age, gender, occupation, hobbies; personalities; likes, dislikes; even a photo to bring the persona to life
 * Personas answer very specific questions... Examples: Which information is necessary at which point of the day? Is the user concentrate on only one thing at a time? Does the user have frequent interruptions during their experience? Why is he/she using the product? What motivates him/her to use this specific product over a competitor's?
 * Benefits of personas: Users' goals/needs become focus for team effort; each persona represents the needs of several/many users: focusing team's effort; relatively quick to develop; help avoid building what users ask for: instead of what they will actually use; prioritization can be done based on personas: e.g., the online persona, the HR persona, etc; reduce the frequency of usability tests
-* Personas from research: Interviews, interviews, interviews... remember? Take the data from the interviews and: look for patterns of attitude and behavior. 
+* Personas from research: Interviews, interviews, interviews... remember? Take the data from the interviews and: look for patterns of attitude and behavior. E.g., frequent travelers price driven and not quality driven. / Look for clusters of attitudes and behaviors that make up different personas. E.g., the frequent traveler that is skilled in researching holidays. Create personas and give them profile info, characteristics, etc
+
+#### How to create a persona:
+1. State profile: age, profession, marital status, ethnicity, languages spoken
+2. Characteristics: Hobbies, personal interests, lifestyle choices, personality details
+3. Pain points: Things that make them dissatisfied/unhappy/uncomfortable
+4. Needs: Things that they feel are important to them in a given scenario
+
+###### Example
+* Mary
+* Profile: 30 years old; works for a magazine(successful professional); single
+* Characteristics: attends lots of media events; has laptop, 2 smartphones (work + personal)--very comfortable with technology; uses social media for personal and work; lots of knowledge of fashion and retail; travels a lot; drives her own high-end car; lives in an upscale apartment; extensive wardrobe; buying high-end is a special "treat", she'll spend time on it and research
+* Pain points: wants to be treated as "special"; not just any other customer; doesn't want to go hugely out of her way or not have help available; wants to get the very best out of her money; doesn't know exactly what she wants, but she knows quality;
+* needs: associate should greet her and know: -name, size, buying profile, previous purchases and offers; needs to be able to let the store know she's coming in--at point of decision to go; needs info on what she's buying: where it's made, materials, etc. Need to research the stock fromm home--know if it's in store
+
+### User Stories
+* Are short statements that include the: Role of the user; and the activity that they wish to perform
+* They tell a very simple, tell a story.
+* They are associated with a persona
+* Format: As a <role>, I want <goal/desire> [so that <benefit>]
+* "so that" is important as it is a method of validating the need
+* Ex1: as a inside salesmen, I want to search for my customers using first and/or last name so that I can look up their contact info
+* Ex2: As a games player, I want to quickly see which of my friends are playing the same game as me so that I can invite them to my game session
+* As a mobile phone user, I want to track my child's SMS usage on a daily, weekly, and monthly basis so that I can determine if they going over their plan SMS limit
+* Theming user stories: once user stories have been generated: create grouping of like task. Useful to get an initial idea of the overall product's features
+* prioritize user stories: So as to come to an agreement of the overall goals of the products
+* benefits: 1. encourage deferral of collecting details; 2. break project into small increments: this makes it easier to estimate/implemtn developer/design effort; 3. extreme brevity: which fits into the UX design & agile methodology of having as little doc as possible; 4. tease out features; 5. easy to priortize (e.g., use post it notes); 6. easy to understand by all parties (including clients with little/no tech savvy)
+
+
+### DITL
+* Day in the Life (DITL)
+* A step-by-step/play-by-play summary
+* Limited to a time frame within a day: based on a persona
+* Useful for: 1. finding possible features for the product; 2. identifying further pain points for personas; 3. helping validate the features for the product; 4. creating presentation material for the client/executive: to show how the product will work
+
+###### Example of DITL
+* Mercedes on a weekend
+1. 8am: mercedes wakes up in her condo, makes coffee, checks facebook and the news on her laptop
+2. 8:30am: she gets a newsletter (in her email) about the new line of Britney Broden Boots
+3. 10am: she checks her bank account to see if her paycheck has come in
+4. 10:30am she goes to the Britney Broden website, look at their boots, favorites 2 of them
+5. 11am: she looks at other high-end stores and favorites more shoes, clothes, and accessories
+6. 11:15am she gets dressed up and heads out
+7. 12:30pm: she meets a friend for lunch, they eat and split up
+8. 1:30pm: she's gone for lunch near the high street and walks there to go shopping
+9. 2pm: she window shops, pops into a few stores, doesn't buy anything
+10. 2:15pm: she goes by the Britney Broden store, goes in
+11. 3pm: she's greeted by the sales associate, but decides to browse on her own, because she's looking for the two boots she saw online, but doesn't remember the name of them
+12: 3:15pm she looks for the two pairs of boots and finds them on her own, then asks the sales associate for her size
+
+### Customer Journey Map
+* A diagram that illustrates the steps your users go through in engaging with your app/business: be it product, online/retail experience, service or any combination
+* Can look at entire arc of engagement: or a subset that is causing problems/issues
+* maps user experience across all touchpoints: touchpoint: when a (potential) user comes in contact with your brand--before, during, or after they perform a transaction with your product
+* Touchpoint examples: 1. before purchase: social media, rating/reviews, word-of-mouth, ads/marketing; 2. during purchase: store/office, website, catalog, promos, staff, phone, POS; 3. After purchase: billing, transaction/marketing emails, support, online help, thank you's; 4. Find touchpoints by using personas/user stories
+* useful because: 1. it identifies potential problems/issues with the service/app: e.g., company/organization functional silos lack communication; 2. It helps improve "moment of truth": whether the customer/user has a good or bad impression
+* CJM characteristics: use infographics: can vary quite wildly: depending on the project/team/UX
+
+###### Resources
+* http://www.steptwo.com.au/papers/kmc_personas/
+* http://www.ux-lady.com/diy-user-personas/
+* http://www.measuringusability.com/blog/personas-ux.php
+* http://uxmag.com/articles/personas-the-foundation-of-a-great-user-experience
+* http://www.agilemodeling.com/artifacts/personas.htm
+* http://www.executivebrief.com/software-development/waterfall-rup-agile/
+* http://www.ux-lady.com/introduction-to-user-personas/
+* http://www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1/
+* http://blogs.hbr.org/2010/11/using-customer-journey-maps-to/
+* http://www.customerchampions.co.uk/customer-journey-mapping-cjm/
+* https://www.surveymonkey.com/blog/en/identify-customer-touchpoints/
+* http://blogs.ijento.com/customer-journey-maps/
+* http://blog.hubspot.com/marketing/how-to-tailor-your-seo-strategy-to-your-customer-journey
+* https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9
