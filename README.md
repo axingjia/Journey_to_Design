@@ -2,6 +2,13 @@
 
 This is a notetaking repo for anything design. UI design, UX design, graphic design.
 
+To-Do:
+* Read UX books
+* Read dark pattern
+
+DISCLAIMER: This repo contains copyrighted material the use of which has not always been specifically authorized by the copyright owner. In accord with the purpose of notetaking/search/retrieval in an easy way and convenient way, we are making such material available to advance understanding of UX design, UI design, and graphic design. We believe this constitute a "fair use" of any such copyrighted material as provided in Section 107 of the US Copyright Law. In accordance with Title 17 U.S.C Section 107, the material on this site is distributed without profit to those who have expressed a prior intereste in receiving the included information for research and educational purposes. For further information on fair use, go to https://www.law.cornell.edu/uscode/text/17/107    
+If you wish to use copyrighted material from this site for purposes of your own that go beyond fair use, you must obtain permission from the copyright owner.
+
 ## UX Design
 
 * Books: [Don't Make me Think: A common Sense Approach to Web Usability, by Steve Krug](https://www.amazon.ca/Dont-Make-Think-Revisited-Usability-ebook/dp/B00HJUBRPG/ref=sr_1_1?dchild=1&keywords=don%27t+make+me+think&qid=1594675115&sr=8-1), [Lean UX: Applying Lean Principles 7to Improve User Experience by jeff Gothelf, Josh Seiden](https://www.amazon.ca/Lean-UX-Designing-Great-Products-ebook/dp/B01LYGQ6CH/ref=sr_1_1?crid=2MSSN8WMNZMJE&dchild=1&keywords=lean+ux&qid=1594675180&sprefix=lean+UX%2Caps%2C208&sr=8-1), [Smashing UX Design: Foundations for Designing ONline User Experiences, by Jesmond Allen, James Chudley](https://www.amazon.ca/Smashing-Design-Foundations-Designing-Experiences/dp/0470666854/ref=sr_1_1?crid=MBN11AGAZW3E&dchild=1&keywords=smashing+ux+design&qid=1594675246&sprefix=Smashing+UX+design%2Caps%2C284&sr=8-1), [The Design of Everyday Things by Don Norman](https://www.amazon.ca/Design-Everyday-Things-Revised-Expanded/dp/B07L5TBRRG/ref=sr_1_1?crid=Q58VZNOCLYFW&dchild=1&keywords=design+of+everyday+things&qid=1594675367&sprefix=design+of+ever%2Caps%2C207&sr=8-1)
@@ -52,7 +59,7 @@ Do's: 1. Get out of the building/get away from the computer; 2. Think big, start
 2. Figma
 3. FluidUI
 
-## Chapter 2: User Survey & Interview
+## Week 2: User Survey & Interview
 * Before you start asking...: It is hard to ask questions when you don't know what you're looking for... Before you start coming up with your survey/interview questions, ask yourself what information are you looking for, and from whom? **What is your objective?**
 * Types of questions: Two main types of questions: open ended, closed ended
 * Open-ended: free flowing, not leading, usually at the ned of the survey
@@ -141,7 +148,7 @@ https://explorable.com/surveys-and-questionnaires
 * http://www.qualtrics.com/university/researchsuite/basic-building/editing-questions/question-types-guide/rank-order/
 * http://theuxreview.co.uk/user-interviews-the-beginners-guide/
 
-# Chapter 3: Personas, User Stories, DITL, Customer Journey Maps
+# Week 3: Personas, User Stories, DITL, Customer Journey Maps
 * Organizing your data: So now that you have some data, now what?---We want to be able to identify themes and patterns in order to create a user persona
 
 #### Affinity Diagram
@@ -238,3 +245,95 @@ https://explorable.com/surveys-and-questionnaires
 * http://blogs.ijento.com/customer-journey-maps/
 * http://blog.hubspot.com/marketing/how-to-tailor-your-seo-strategy-to-your-customer-journey
 * https://medium.com/@jonatisokon/a-framework-for-user-stories-bc3dc323eca9
+* https://www.interaction-design.org/literature/article/affinity-diagrams-learn-how-to-cluster-and-bundle-ideas-and-facts
+* https://cxl.com/blog/customer-journey-maps/
+
+# Week 4: Usabilty Heuristics & Anti-pattern
+* usability Heuristics: Usability inspection based upon some set of industry-tested heuristics
+* involes evaluations of an app/site: test to see if the app/site violates the usability heuristics
+* Jakob Nielsen's heuristics: Most widely/commonly used/accepted; formalized in 1994 in his book "Usability Engineering"
+* Useful as a starting off point for UI design: done in early stages of design; not meant to replace user testing
+
+1. Visibility of system status (i.e., feedback); system should always keep users informed about what is going on.
+ E.g., 1. password strength: strong; 2. your password has been emailed
+ 2. match between the system and the real world: speak the users' language--words/phrases/concepts: info appear in natural/logical order, concepts familiar to the user/rather than system-oriented terms; using icons are great for giving visual indications. Example: a dropdown menu with the corresponding icon for each item
+ 3. User control and freedom: be forgiving, let users back out of actions, don't punish for mistakes. i.e., need a clearly marked "emergency exit" to leave the unwanted state; without having to go through an extended dialogue; support undo/redo
+ 4. Consistency and standard: follow conventions/guidelines, don't make users guess: make words/actions/situations consistent
+ 5. Error prevention: error messages: good, careful design: better---avoid error prone input (e.g., date picker instead of text typed; ex2: primary button for submit, a link button for cancel)
+ 6. Recognition rather than recall: minimize user's memory load; make objects/actions/options visible: users shouldn't have to remember info from one page to another; visible instructions replace typed input with formatted values
+ 7. Flexibility and efficiency of use: accelerators for experienced users. Ex: hotkey shortcut
+ 8. Aesthetic and minimalist design: don't display irrelevant/rarely used info: extra info detracts from importance; Respected principles of: contrast, repetition, alignment, proximity
+ 9. Hep users recognize, diagnose, and recover from errors. Error messages expressed in plain language (no code). Precisely indicate problem, constructively suggest solution. Ex. error message around the form
+ 10. Help and documentation: shouldn't need but if provided, make it useful, easy to search. Info architecture a must. Ex: question mark hover      
+
+
+#### Heuristics Evaluation
+* Heuristic evaluation involves having a small set of evaluators examine the interface and judge its compliance with recognized usability principle (the "heuristics") --Jakob Nielsen
+* Using Jakob's list, see if there are deficiencies
+* Not one but several evaluators inspect and summarize their findings, and discuss and share their findings
+* Heuristics evaluations should not be used to replace user testing: They should be used in conjunction with user testing--a starting off point. Then to usability testing with users (and many times)
+* Step by step: 1. define scope--what are you inspecting? Whole site/app? A given action? 2. Know thy users--adopt same POV as your users (i.e., personas); 3. Decide on the UH set--e.g., Jakob Nielsen's; 4. Evaluate experience/Identify issues--perform predefined tasks (e.g., login); 5. Analyze/present results--create list of issues/problems
+
+### Seven Stages of Action
+* By Donald Arthur "Don" Norman. (Co-founder and consultant with the Nielsen Norman Group)
+* Seven stages of action is: explaining the psychology of a person behind the task performed by him or her
+* There are stages of: execution; evaluation
+
+<img src="assets/week4_actions.png" width="500" />
+
+1. Forming the goal: something to be achieved, e.g., "make a nice meal"
+2. forming the intention: goal must be transformed into intentions. Specific statement of what has to be done to satisfy the goal. E.g., "make a chicken casserole from fresh ingredients"
+3. Specifying an action sequence. What is to be done--the precise sequence of operators that must be performed to effect the intention. e.g., "chop up vegatables, air-cool chicken, boil noodles..."
+4. Executing an action. Actually doing something. Putting the action sequence into effect on the world. E.g., chopping vegetables, cooking meat, boiling stock
+5. Perceiving the state of the world. Perceiving what has actually happened. E.g., the experience of smell, taste, and look of the prepared meal
+6. Interpreting the state of the world. Trying to make sense of the perceptions available. E.g., putting those perceptions together to present the sensory experience of a chicken casserole.
+7. Evaluating the outcome. Comparing what happened with what was wanted. E.g., did the chicken casserole match up the requirement of "a nice meal"
+
+* seven stages of action practical application: how easily can one: 1. determine the function of the device. 2. understand what actions are possible; 3. determine mapping from intention to physical movement; 4. perform the action; 5. recognize what state the system is in; 6. recognize if a system is in desired state; 7. determine mapping from system state to interpretation
+
+#####principles of good design:
+* visibility: by looking, the user can tell the state of the device and the alternatives for action.
+* A good conceptual model: The designer provides a good conceptual model for the user, with consistency in the presentation of operations and results and a coherent consistent system image
+* good mapping: it is possible to determine the relationship between actions and results, between the controls and their effects, and between the system state and what is visible;
+* feedback: the user receives full and continuous feedback about the results of actions
+
+###### Dark pattern
+* Coined by harry Brignull
+* What are dark patterns? UX/UI choices that are carefully and meant to trick users into doing things. (Things that they did not set out to do. Buy insurance, create an account, give personal information)
+* Dark patterns are intentional. They are also everywhere
+* userinyerface.com
+* ex1: bait and switch: user set out to do one thing, but different/undesireable thing happens instead. Ex: ads hotel shows up at the beginning of the search result
+* ex2: disguised Ads: adverts that are disguisded as other kinds of content or navigation, in order to get users to click on them
+* ex3: Fareway bill: hide details of service charges using online bill to obfuscate the info
+* ex4: forced continuity: user is not given easy or adequate reminder for canceling a service that automatically opted in the user
+* ex5: force disclosure: user is required to provide/disclose extensive personal info for a free/low cost action/service
+* ex6: friend spam: site/app asks for user's social media credential for login and uses contact to spam
+* ex7: hidden costs: hidden costs incurred in the last step of a transaction
+* misdirection: the attention of the user is focused on one thing in order to distract its attention from another
+* price comparison prevention: the attention of the user is focused on one thing in order to distractits attention from another
+* Privacy zuckering: creating deliberately confusing jargon and user-interfaces which trick your users into sharing more info about themselves than they really want to
+* Roach motel: make it easy to get into a certain situation, hard to get out. E.g., email newletter un-subscription
+* Road block; when the user's progress t o task completion is restricted or stopped by something else on the screen
+* Sneak into basket: user attempts to purchase/ download specific item but the site sneaks an additional item into the shopping cart
+* Trick questions: user is required to respond to a question that looks as if it says one thing but actually says something opposite
+
+###### Resources
+* Usability heuristics
+* http://www.nngroup.com/articles/ten-usability-heuristics/
+* http://uxbert.com/designing-usable-interface-nielsens-10-usability-heuristics/
+* http://designmodo.com/usability-heuristic-evaluation/
+* http://designingwebinterfaces.com/6-tips-for-a-great-flex-ux-part-5
+* http://designmodo.com/usability-heuristic-evaluation/
+* Seven stages of action
+* http://www.it.bton.ac.uk/staff/rng/teaching/notes/normangulfs.html
+* https://en.wikipedia.org/wiki/Seven_stages_of_action
+* Dark Patterns
+* http://darkpatterns.org/
+* http://www.90percentofeverything.com/2013/07/23/the-slippery-slope/
+* http://www.theverge.com/2013/8/29/4640308/dark-patterns-inside-the-interfaces-designed-to-trick-you
+* http://www.90percentofeverything.com/2009/04/16/five-ux-antipatterns-to-avoid-when-designing-log-in-registration-areas/
+* Others
+* https://www.nngroup.com/articles/ten-usability-heuristics/
+* https://www.youtube.com/watch?time_continue=337&v=kxkrdLI6e6M&feature=emb_title
+
+# Week 5: User flows, navigation, wireframes & Protyping, storyboarding

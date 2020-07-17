@@ -34,4 +34,21 @@
 * make at least 10 images of your object. Make each image with different techniques, and in a different way.
 * To create your images, here are some materials you can consider: pencil, crayon charcoal, photograph, watercolor, color pencil, marker, collage, flat, illustrator drawing, scanned objects, clay, chalk, sculpture, found trash, scrapeboard, lino cut, monoprint, blind drawing, potato print, 3D model, photoshop manipulation, ballpoint pen in one continuous line
 * Also think about what kind of imagemaking aesthetics or strategies you might employ: any historical design or art movement; cartoon, realistic, surreal, symbol/icon, impressionistic, abstract, historical, complex, minimal, cubist, decorative
+
+## Connotative imagemaking
 * connotative: how image evokes in addition to their literal meaning
+* ex: an apple with a snake: sin
+* we will need to try to control the message we are conveying
+* an apple on a head with an arrow piercing the apple
+* ex: an apple with a catepillar with a happy face
+* a tilted apple with line
+* a snake making out of apple.
+* so part of your job as a designer to trying to control the message
+* apple with a letter grade on it
+
+## Typography: lexicon of letters
+* strokes
+* terminal, stem, counterspace, bowl, spur
+* shoulder, leg, ear, arm, foot, eye, spine
+* cap-height(height of a capital letter), x-height, baseline, ascender, descender
+* letter space, word space, tracking( letter space+word spacing)
