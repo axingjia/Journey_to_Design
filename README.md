@@ -337,3 +337,162 @@ https://explorable.com/surveys-and-questionnaires
 * https://www.youtube.com/watch?time_continue=337&v=kxkrdLI6e6M&feature=emb_title
 
 # Week 5: User flows, navigation, wireframes & Protyping, storyboarding
+* User flow: describes the path that a user takes when looking at a site/app. E.g., web pages for web sites, screens for apps. follow user as they purchase a product, sign up for a newsletter, request info, download a whitepaper, etc
+* Graphically represented (i.e., a flow chart): screens/pages represented with boxes
+* Related to tasks that the user is attempting to accomplish
+* using user flow to: 1. see what pages/screens are most/least popular; 2. see how users are getting to pages/screens; 3. Determine if users are getting stuck; 4. determine if users are following different paths (that what you had expected them to take); 5. reduce: abandonment; 6. increase user achievements
+* In order to build user flow, know the following: what are users needs/desires/problems to solve? What qualities are most important to them? (speed, quality, color quantity?) What questions do they have about a product/info/topic? What information do they need to take action?
+* Remember to design flow: which focus on fulfilling users' needs. Instead of designing a bunch of pages. I.e., look at the forest, not the trees
+* Establish entry point (i.e., start of using the app/site): 1. organic search: e.g., Google search using particular phrase; 2. paid advertising: e.g., Pay Per Click (PPC) banner ads; 3. Social media: e.g., from Facebook/Twitter link; 4. Press or news item: e.g., direct link/URL typed by user
+* These are your "funnels". Where you can architect experiences according to: Traffic source, user type
+* Email newsletter link example: 1. display media (i.e., image banner ad); 2. landing page (from the banner); 3. Email sign up; 4. receive email; 5. visit product page; 6. make a purchase
+
+#### Designing User Flow
+* Pick the granularity for your flow: Too little and your flow doesn't help improve the process; too much and it's too time consuming;
+* Draw as: what the user sees->what the user see next...over
+* What they do-> what they do next
+
+<img src="assets/week5_userflow.png" width="500" />
+
+* Flow are made from individual interactions: a screen offers some choices and the user picks one. E.g., adding a "todo" item
+* quickly sketched, written, easy to read, anyone can understand
+* Dotted lines separate alternate action (ie, "or")
+<img src="assets/week5_userflow2.png" width="500" />
+* example: sending/claiming invitations to create user account:
+<img src="assets/week5_userflow3.png" width="500" />
+
+###### Analytics
+* Analytics app (e.g., google analytics)
+* What to measure?
+* where do users go (e.g., navigation trends)
+* how many users/sessions at what time/day/week/month
+* how long are users staying
+* who refered to your site/app
+* navigation patterns (i.e., how long/short, worse/better)
+* Transaction cancelled/completed, how long/short
+* advertisements clicked/ignored
+* Video views per hour/day
+* Metrics is data measured--e.g., screen views, page per session, avg. session duration
+* Different types of metrics: vanity metrics: make you feel good but aren't useful. E.g., web traffic, registered users, raw page views. Actionable metrics: useful and prove something. E.g., 1/2 user see new site, 1/2 see old site, 1 week later see the revenue earned from new site, and revenue earned from old site
+
+###### Affordance
+* Originally coined by psychologist James J. Gibson in 1970s
+* "an action possibility available in the environment to an individual independent of the individual's ability to perceive this possibility"
+* independent of the actor's ability to perceive it
+* e.g., a door's afforance of "openability" (its affordance relative to the actor) but can be hidden, camouflaged or likewise
+* The term afforance refers to the percieved and actual properties of the thinig, primarily those fundamental properties that determine just how the thing could possibly be used
+* so both actual and perceived. E.g., a ball's afforance is both its 1. round shape/physical material; 2. perceived suggestion as to how it should be used
+* So with afforance, design for both: 1. usefulness by creating afforances. Possibilities for action in a design--by matching the goals of user. 2. Usability by designing the info that specifies the afforances. E.g., shadows on a button to afford clickable actions
+* A generally acceptance of afforance (in UX): An object's sensory characteristics intuitively imply its functionality and use. E.g., a button slightly raised above an otherwise flat surface implies it can be pressed. / A desirable tool to help users be led to take the correct action/steps
+* Avoid false affordance: e.g.,cardboard chair; false afforance are used as "dark patterns"
+
+##### Prototype
+* prototypes are a simulation of your design. Clear vision of what needs to be built. Based on personas, survey, interviews, customer journey maps, DITL, user stories, notes, etc
+* Prototypes help convey to your client what you are porposing to build
+* Design problems get raised early. And understand constraints--so you can reach an alternative solution
+* can be used as: demos to encourage buy0in of your ideas, learning from prototypes, confirming user requirements
+* Your proof of concept. As they stand at that moment of time. Remember, iteration is welcome/expected--required even!
+* Help you: 1. see through the eyes of others -- remember: you are not your users! 2. avoid design gaps. 3. manage risk--with you and your client; 4. identify/solidify user requirements, product scope; 5. keep the communications channel open with your client
+* Experimenting with new design ideas. Which allows S/W developers to test the viability of a feature/idea
+* Benefits: Simulate the experience with the least amount of resource usage. Time, money, Human. 2. Generate more design ideas. This is an iterative process. 3. Communicate intentions of the design to others. (Developers, UI designers, client); 4. validate the experience with real users / refining/iterating; 5. Offer a vision of the final design state
+* Prototyping misconception: 1. it wastes time--time could be spent building the actual product: this ignores the iterative process of UX/agile S/W development; 2. prototyping requires technical skills: Low fidelity paper prototypes, post-it notes, whiteboard/markers' simple S/W tools (e.g., Adobe XD) don't require programming knowledge; 3. Costs too much: tools (S/W or paper/pencil) inexpensive, time requirement is short; 4. Prototypes unnecessary when you're lean/agile. Prototyping is part of lean UX/agile S/W methodology; developers become afraid of trying new things, experimenting; 5. Prototypes are only for certain types of products. Web, mobile, tangible manufactured products, games, services all benefit; 6. No value in prototyping. Many stuides have been performed showing the quantifiable benefits of prototyping
+* Different types of prototyping: Sketches, storyboards, wireframes & clickable wireframes; interactive prototypes
+* Sketching is one of the first step in prototyping. Early version of designing your story.
+* Sketching good for: validating your ideas. Thinking through the design problem; work out flow, sequence, micro details of product;
+* Storyboarding: helps ideate early interaction patterns, flow; shortcoming in design, and early
+* heuristics: keep them low-fi: it takes less effort, more detail can be distracting for clients
+* focus on arrangement of items, layout, interaction: Not on colors, typefaces, imagery
+* Wireframe & Clickable wireframe
+* basic skeleton of for the design you are creating
+* it shows structure, information hierachy, function, content, WIP/status of project
+* identify initial functionality/behaviors/content
+* clickable wireframes add simple interactivity. Can be performed in the form of simple web pages. E.g., powerpoint, keynote, axure, balsamiq
+* Interactive prototype
+* mid-high fi prototypes
+* Create hotspots that allow for interaction
+* In order to give the illusion of a fullly functioning product
+* Useful for simulating the experience of the product
+* Ideal for: getting more useful feedback/reactions from users--They get more of a feel for how it looks/works/acts. 2. Show both the visual as well as interaction design. Finding shortcoming before committing to a design/feature
+* Lo-Fi vs. Hi-Fi prototypes: Lo-fi prototypes great for: exploring interaction before visual design has been established/completed / exploring new features/layouts/ information architecture patterns / getting quick feedback from potential users/ clients
+* Hi-fi prototypes great for: demonstrating the visual design to users/clients: visual design: color schemes, fonts/font sizes/ textures/
+* skeuomorph: a design principle where design cue are taken from the physical world
+* Storyboarding is: descriptive pictures / textual description of: action, scenery and views direction
+* has roots in film (mostly animation): used to plan out complex/action-filled scenes
+* why do UX designers need it. Some components while drawn, don't give the full impression of the actions available
+* Complex actions/ interaction can be carefully mapped out--helps visualize sequences
+* cost can be better estimate (more accurate)
+* precise visual decisions can be dictated--and agreed upon by UI/UX/animators/programmers alike
+* movement/animation of content/views/components can be decided
+* asset lists can be teased out by creating storyboards. Maps, products, description
+* even though we are not movie maker, we are still story tellers!
+* Ux contains: textual content, images, sound, video, interaction
+* we need to carefully design: interactions, animation, flow, user's roadmap
+* UX storyboarding vs. conventional storyboarding:
+* UX: 1. can be non-linear, 2. focus on interaction, 2. each storyboard represent an action (or even several), 3. can be heavily descriptive, 4. can describe game mechanics
+* Movie/TV: 1. is always linear, 2. focuses on story/continuity, 3. each storyboard represents several frames (even seconds) of animation/footage, 4. very little textual content--relies on the drawing to convey information
+* UX story boarding information: a unique label, title of action;
+* actual storyboard supporting picture
+* animation description: what is the context (i.e., in UX the action); what responses can happen within an action; what actions are available
+* interactive items: what they are, what they do, what ttype. E.g., pin wheel, user sipes, wheel rotates to demonstrate menu choices
+
+<img src="assets/week5_story1.png" width="500" />
+<img src="assets/week5_story2.png" width="500" />
+<img src="assets/week5_story3.png" width="500" />
+
+##### Resources
+* User flows
+* http://www.agitraining.com/ux/classes/user-flows-for-ux
+* http://conversionxl.com/how-to-design-user-flow/
+* http://www.smashingmagazine.com/2012/01/04/stop-designing-pages-start-designing-flows/
+* http://wireframes.linowski.ca/tag/user-flow/
+* https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows
+* http://www.amyshermandesign.com/panopta/
+* Cognitive flow
+* http://www.gamasutra.com/view/feature/166972/cognitive_flow_the_psychology_of_.php?print=1
+* Affordance
+* https://www.interaction-design.org/encyclopedia/affordances.html
+* http://www.uxbooth.com/articles/foundations-of-affordances/
+* http://www.usabilityfirst.com/glossary/affordance/
+* Analytics/Metrics
+* https://support.google.com/analytics/answer/1033861?hl=en
+* http://fourhourworkweek.com/2009/05/19/vanity-metrics-vs-actionable-metrics/
+* http://techcrunch.com/2011/07/30/vanity-metrics/
+* https://litmus.com/blog/focusing-on-useful-analytics-vanity-metrics-vs-actionable-metrics
+* http://michele.webanalyticsdemystified.com/2013/09/better-ways-to-measure-content-engagement-than-time-metrics.html
+* https://www.siriusdecisions.com/Blog/2014/July/Six-Myths-About-Prototyping.aspx
+* http://sites.tufts.edu/eeseniordesignhandbook/2013/rapid-prototyping/
+* http://www.agilemodeling.com/artifacts/uiFlowDiagram.htm
+* http://sixrevisions.com/user-interface/website-wireframing/
+* http://mashable.com/2010/07/15/wireframing-tools/
+* http://www.webdesignerdepot.com/2013/04/video-tutorials-are-the-bane-of-my-existence/
+* Others
+* https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram
+
+# Week6: Design Guidelines for Mobile & Web
+* SKIP
+* https://color.adobe.com/create/color-wheel
+
+# Week 7: User Testing
+* Designers, S/W developers alike have a: goal: build an app/product; mindset: pay attention to bugs, inefficiencies, performance related issues; duty: know the technology being used to create the digital medai product
+* Users don't put thought into any of this: They just use the product; like they use a car, microwave oven, coffee maker. And they expect it to "just work"
+* motto for all: fail fast--once you've developed a design, it's expensive to change
+* Technique used in User Centred Design (UCD)
+* A method of formalizing the evaluation of a product--by testing it on users
+* Systematic--performed multiple times--under controlled conditions
+* Invaluable because: immediate feedback is given by using the product. Instead of getting opinion
+* Not just for software/digital media--cars, food, coffee makers, etc
+
+### Test Methods
+* Many different ways to perform usability testing
+* Don't stick to just one method. Projects benefit from multiple methods being used. As much as can be afforded--reosurce-wise
+* Two different axes: attitudinal vs. behavioral; qualitative vs quantitative
+* Attitudinal vs. behavioral: attitudinal: "What people say"--measure users' stated beliefs (heavily used in marketing); behavioral: "what people do"--their action recorded/tracked/analyzed/body language; Not always the same
+* qualitative vs. quantitative. Qualitative: suited to answering "why" or "how" questions for problems; quantitative: suited to answering "how many" or "how much" questions
+* What phase you are in determines objectives. 1. Strategizing: beginning phase. Considering new ideas, varied perspectives; 2. executing: building/ designing phase--building/improving design direction chosen; 3. assessing: deployment phase: measuring effectiveness of design against product historical data and competition data
+
+### Test Methods
+* Participatory Design: participants given design elements/creative materials. And construct their ideal experience in a concrete way. That expresses what matters to them most and why
+* Focus group: groups of 3-12 participants lead through discussions--of topics, given, verbal, written feedback via discussion/exercise
+* Interviews: participants one-on-one to discuss in depth what they think about the topic in question
+* usability Benchmarking: Tightly scripted usability studies performed iwth participants--based no core tasks. Measures of performance are the focus. I.e., success/failure within time threshold, time-on-task. number of erros before completion
+* Concept Testing (AKA prototyping): research shares an approximation of a product/service. capture key essence (ie., value prop). To see if it meets expectations/interests of a target audience
