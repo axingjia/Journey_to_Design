@@ -496,3 +496,61 @@ https://explorable.com/surveys-and-questionnaires
 * Interviews: participants one-on-one to discuss in depth what they think about the topic in question
 * usability Benchmarking: Tightly scripted usability studies performed iwth participants--based no core tasks. Measures of performance are the focus. I.e., success/failure within time threshold, time-on-task. number of erros before completion
 * Concept Testing (AKA prototyping): research shares an approximation of a product/service. capture key essence (ie., value prop). To see if it meets expectations/interests of a target audience
+* Customer feedback; Open/closed-ended info provided by a self-selected sample of users. via feedback link, button, form, email
+* Desirability Studies: participants are offered different visual-design alternatives. And expected to associate each alternative with a set of attributes
+* Card sorting: participant organize items into groups and assign categories to each group
+* Think aloud protocol: users state aloud what they are thinking while performing tasks; works well with a customer journey map
+* Clickstream analysis: analyze record of screens/pages that users clicks on/see. Analyzing: flow, scrolling, heat maps, selections
+* A/B Testing: AKA multivariate testing, live testing, bucket testing. Test different design of product/site. / By randomly assigning groups of users to interact with each of the different designs. And measuring the effect of these assignments on user behavior
+* True-Intent studies: asks random site visitor what their goal or intention is upon entering the site / Measures their subsequent behavior. And asks whether they were successful in achieving their goal upon exiting the site
+
+#### Usability Benchmarks
+* What to do: when you have a stable prototype. When you've added some major design changes. Not to be used with think aloud protocol
+* Pick your core tasks. I.e., discrete activity that a user would want to perform. E.g., checking notifcations, adding a photo, purchasing a product, etc
+* What to measure? Success/Failure within a time threshold- can your users complete the task given / Time on task / Number of erros before completion
+* Setting goals for benchmark studies. If first time, the goals will be arbitrary (e.g., no more than 20% errors)
+* Tips: keep your raw data, do multiple trials, first benchmark is the hardest / Do some practice run, brush up on stats
+
+###### Service Design
+* Skip
+
+##### Resource
+* User testing
+* http://www.uxbooth.com/articles/usability-testing-dont-guess-test/
+* http://en.wikipedia.org/wiki/Usability_testing
+* http://www.nngroup.com/articles/which-ux-research-methods/
+* http://scottberkun.com/essays/27-the-art-of-usability-benchmarking/
+* https://en.wikipedia.org/wiki/Think_aloud_protocol
+* http://blog.usabilla.com/the-top-5-user-testing-methods-of-ux-professionals/
+* http://www.nngroup.com/consulting/ux-research-usability-testing/
+
+# Week 8: Design Guidelines for Mobile & Web 2
+* MY: Skip a lot of material
+
+## Mobile UI Design Pattern
+1. Coach marks: problem: users may be unfamilar with the app or some of its flows. Solution: provide means (e.g., transparent overlay of UI hints) to guide user trhough an action
+2. Slideout: problem: mobile layout has limited space, yet, need a way of offering the user quick access to navigational choice. Solution: offer a collapsible hidden panel that can be accessed (e.g., swipe, tap)
+3. Coverflow: Problem: large amounts of content (images, products) need to be displayed to the user without interrupting the current flow or action. Solution: provide a scrollable pane that allows users to swipe through content
+4. Discovery: problem: high level lists of content such as menus do not provide the necessary amount and level of detail users may need during certain actions (e.g., purchase). Solution: provide an intermediary-grandularity level of detail of content to users to assist in their choices within a given action
+* Venue: Problem: menus, lists, and categories of itemse (e.g.,products) do not provide users with the necessary fine level of detail in order to complete actions (e.g., purchase) / Solution: provide a high-granularity level of detail of content to users in order for them to complete a given action (e.g., book a hotel stay)
+
+##### Resources
+* Overall Guidelines
+* http://www.smashingmagazine.com/guidelines-for-mobile-web-development/
+* http://speckyboy.com/2011/03/31/10-essential-web-application-usability-guidelines/
+* http://www.1stwebdesigner.com/css3-tutorials-2012/
+* Links to Guidelines
+* http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-design
+* http://www.1stwebdesigner.com/css3-tutorials-2012/
+* Mobile UI Trends
+* http://www.mobile-patterns.com/
+* http://inspired-ui.com/
+* Scrolling
+* http://www.hugeinc.com/ideas/perspective/everybody-scrolls
+* http://uxmyths.com/post/654047943/myth-people-dont-scroll
+* iOS
+* https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html
+* Android
+* http://developer.android.com/design/index.html
+* Data Visualization
+* https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/ch01.html
