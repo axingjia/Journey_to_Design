@@ -554,3 +554,106 @@ https://explorable.com/surveys-and-questionnaires
 * http://developer.android.com/design/index.html
 * Data Visualization
 * https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/ch01.html
+
+# Week 9: Information Architecture
+* What is it?
+* Structural design of an information space to facilitate task completion and intuitive access to content
+* art & science of organizing, labeling, creating search & navigation schemes within digital products. To support usability and findabiltiy
+* A continually evolving community of practice focosed on. Bringing principles of design and architecture to the digital landscape
+* understanding: business objectives, constraints, the content, and the requirements of the people that will use the product
+* Interpreting of information
+* Categgorizing information into a coherent/meaningful structure
+* one that is specific to the target audience intended
+* A typical way to look at IA is: Business Context; content, users
+* Business context: understand organization's business objectives, politics, culture, technology, resources, constraints by: reading org's docs, mission statement, org charts, vission doc / conducting stakeholder intervews
+* Content: To know the quantity/quality of content: conduct a content inventory. I.e., identify proposed content, where content resides, who owns it, relationship between content
+* Users: who are they, what are their info-seeking behaviors & needs, what is their experience / Reflect on the way people think about subject matter
+
+### Schemes & Structures
+* Schemes: the categorizing of content and the relationship between them.
+* Schemes can be exact or subjective. Exact: alphabetic, chronological schemes, geographical schemes / Subjective: topic, task, audience, metaphor
+* Structures: How you define the relationships between pieces of content: successful structures allow users to predict where they will find information.
+* Three types: hierarchical, sequential, matrix. PS: You will usually use all three
+* Other considerations: 1. Breadth vs. depth: how far to go on each. 2. Poly-parenting: can an item appear in more than one category? 3. Single-child: items only appear in underneath one parent. Usually not acceptable--but some condition will exist. E.g., information requiring secured access
+
+<img src="week9_structure.png" width="500" />
+
+
+<img src="week9_structure2.png" width="500" />
+
+* Taxonomies: The science of defining groupings of things based on shared characteristics. Each context requires a different taxonomy. i.e., specific to the problem domain
+* Metadata: provides searchable handles for content. Taxonomy-based subject metadata yields most precise retrieval
+* Three different types: 1. administrative--managing/preserving items. E.g., date created, author. 2. Descriptive--for discovery. E.g., title, subject, audience, purpose; 3. Structural--storage in a repository and presentation needs. E.g., title, author, date created, purpose
+
+#### Content Organization
+* Task-related grouping in tree organization: create groups of logically similar items / Form groups that cover all possibilities / Use familiar terminology, but ensure that items are distinct from one another
+* Item presentation sequence: the order of items in a menu is important, and should take natural sequence into account when possible: time, nueric ordering, physical properties
+* When cases have no task-related ordering, the designer must choose from such possibilities as: alphabetic sequence of terms / grouping of related items / most frequently used items first / most important items first
+
+#### IA Steps
+1. Understand business/contextual requirements and proposed content for the system
+2. conduct cardds sorting exercises with a number of representative users
+3. Evaluate the output of the card sorting exercises. Look for trends in grouping and labeling
+4. develop a draft information architecture
+5. Evaluate draft information architecture using the card-based classification evaluation technique
+6. Document the information architecture in a draft site map
+7. Define a number of common user tasks
+8. Walk other members of the project team through the storyboards and leave them in shared workspaces for comments
+9. Conduct task-based usability tests on paper prototypes
+10. Create detailed page layouts to support key user tasks
+
+#### Site map
+* A diagram that represents the pages in a site/app
+* uses: for IA/design of app. / For search engines of web app. Using XML format is useful for web apps--so search engines find everything on the web site
+
+<img src="assets/week9_sitemap.png" width="500" />
+
+#### Content map
+* A map showing the flow of content for your site/app. Taking into consideration the users/customers
+* how does the content relate to the goals of users/customers?
+* Content: articles, advertisements, product descriptions, bio, etc. Can be textual, audio, video, interactive
+* Help identify: content needed to be produced. Label needed for content
+* Mapping content to goals of the clients
+
+<img src="assets/week9_contentmap.png" width="500" />
+
+<img src="assets/week9_contentmap2.png" width="500" />
+
+#### Resources
+* Information architecture
+* http://iainstitute.org/en/learn/resources/what_is_ia.php
+* http://en.wikipedia.org/wiki/Information_architecture
+* http://www.steptwo.com.au/papers/kmc_whatisinfoarch/
+* Information architects
+* http://room34.com/philosophy/roles
+* http://www.userexperiencedesigner.co.uk/new-what-is-ux-designer-ia.htm#information-architect
+* http://www.usability.gov/what-and-why/information-architecture.html
+* http://www.techrepublic.com/article/10-questions-about-information-architecture/
+* http://aquent.com/hire-talent/job-description-library/Information-Architect-UX-Designer-64273
+* Card sorting
+* http://www.smashingmagazine.com/2014/10/20/improving-information-architecture-card-sorting-beginners-guide/
+* http://www.userzoom.com/uxguide/ux-design-tools-card-sorting-tree-testing/
+* http://www.uxmatters.com/mt/archives/2011/06/comparing-user-research-methods-for-information-architecture.php
+* http://www.uxmatters.com/mt/archives/2012/08/creating-a-web-site-information-architecture-in-six-steps.php
+* Taxonomies
+* http://ux.stackexchange.com/questions/45953/how-do-you-create-a-taxonomy-for-products
+* Metadata
+* http://blog.braintraffic.com/2012/03/an-intro-to-metadata-and-taxonomies/
+* http://www.loc.gov/standards/metadata.html
+* Overall
+* http://www.uxmatters.com/mt/archives/2012/06/ux-design-defined.php
+http://www.steptwo.com.au/papers/kmc_whatisinfoarch/
+* Site Maps
+* http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html
+* https://www.distilled.net/blog/seo/why-you-should-map-out-your-sites-information-architecture/
+* http://en.wikipedia.org/wiki/Site_map
+* Content mapping:
+* http://contentmarketinginstitute.com/2014/11/5-steps-mind-map-content-increase-reach/
+* http://sixrevisions.com/content-strategy/content-mapping/
+
+# Week 10: UX in Games & Interactive media
+* Storytelling
+* http://blog.usabilla.com/10-ways-to-incorporate-storytelling-in-web-design/
+* http://thenextweb.com/dd/2015/09/08/6-storytelling-techniques-for-great-interaction-design/
+* http://www.smashingmagazine.com/2010/01/better-user-experience-using-storytelling-part-one/
+* http://www.smashingmagazine.com/2010/02/better-user-experience-through-storytelling-part-2/
